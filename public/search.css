@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #2525de;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.home-button {
+    background-color: #ff8400;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto 20px; /* Center and space below */
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 2px solid #ff8400;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto; /* Center input */
+}
+
+button {
+    background-color: #ff8400;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto; /* Center button */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e67200; /* Darker shade on hover */
+}
+
+#results {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#locationInfo {
+    border: 2px solid #ff8400; /* Border color */
+    padding: 20px; /* Padding inside the box */
+    margin: 20px 0; /* Margin around the box */
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: left; /* Align text left */
+}
+
+#locationInfo h3 {
+    margin: 0 0 10px; /* Space below the heading */
+    color: #2525de;
+}
+
+.location-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0; /* Space between items */
+    width: 100%; /* Ensure it takes full width */
+}
+
+.left-label {
+    color: black;
+    text-transform: uppercase; /* Uppercase for labels */
+    width: 150px; /* Fixed width for left labels */
+}
+
+.right-value {
+    color: #2525de; /* Blue */
+    text-transform: lowercase; /* Lowercase for other values */
+    flex-grow: 1; /* Allow the value to take available space */
+}
+
+
+.suggestion {
+    padding: 8px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.suggestion:hover {
+    background-color: #f0f0f0;
+}
+    

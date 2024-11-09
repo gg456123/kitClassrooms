@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #2525de;
+    margin: 0;
+    padding: 20px;
+    text-align: center; /* Center text alignment */
+}
+
+h1, h3 {
+    margin: 20px 0;
+}
+
+.home-button {
+    background-color: #ff8400;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px; /* Space below */
+}
+
+.map-link {
+    background-color: #ff8400; /* Button color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px; /* Space between buttons */
+    text-align: center;
+    transition: background-color 0.3s;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Align as block element */
+}
+
+.map-link:hover {
+    background-color: #e67200; /* Darker shade on hover */
+}
+
+.image-container {
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center align */
+    margin-top: 20px; /* Space above the image container */
+}
+
+#mapImage {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    display: none; /* Hidden by default */
+    border: 5px solid #ff8400; /* Optional border for image */
+    border-radius: 5px; /* Rounded corners */
+}

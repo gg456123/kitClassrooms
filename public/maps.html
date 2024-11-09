@@ -1,0 +1,33 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maps</title>
+    <link rel="stylesheet" href="maps.css"> <!-- External CSS file -->
+</head>
+<body>
+    <h1>Campus Maps</h1>
+
+    <!-- Home button to go back to the main page -->
+    <button class="home-button" onclick="window.location.href='index.html'">Home</button>
+
+    <!-- Links to select different maps -->
+    <h3>Select a building map:</h3>
+    <a href="#" class="map-link" data-map="whole campus.png">Whole Campus</a>
+    <a href="#" class="map-link" data-map="main building.png">Main Building</a>
+    <a href="#" class="map-link" data-map="library.png">Library</a>
+    <a href="#" class="map-link" data-map="bio tech.png">BioTech</a>
+    <a href="#" class="map-link" data-map="MBA.png">MBA</a>
+    <a href="#" class="map-link" data-map="Mechanical Buidling.png">Mechanical</a>
+    <a href="#" class="map-link" data-map="img - ENTC Buidling.png">ENTC</a>
+    <a href="#" class="map-link" data-map="civil.png">Civil</a>
+    <a href="#" class="map-link" data-map="AIML.png">AIML</a>
+    
+    <!-- Container for the selected image -->
+    <div class="image-container">
+        <img id="mapImage" src="" alt="Selected Building Map">
+    </div>
+
+    <script src="maps.js"></script> <!-- External JS file -->
+
+
+</body>
