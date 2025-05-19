@@ -2,16 +2,7 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js';
 import { getFirestore, collection, getDocs } from 'https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js';
 
-// Firebase configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyBcITW5LI3wpNiAwg_YHp3qy6UGx8WVlwM",
-    authDomain: "yasu-d7691.firebaseapp.com",
-    projectId: "yasu-d7691",
-    storageBucket: "yasu-d7691.appspot.com",
-    messagingSenderId: "1054734818099",
-    appId: "1:1054734818099:web:e17f1e32be3d31d4407c46",
-    measurementId: "G-Q67JCS6CF5"
-};
+//API CONFIURATION IS here
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
